@@ -1,0 +1,119 @@
+.profil{
+
+    margin: 0;
+    padding-top: 30px;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: #eee;
+}
+
+.lead a:hover{
+    color: #03a9f4;
+}
+
+.glavniBox{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+
+.glavniBox .card{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    background: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgb(0,0,0,.5);
+    overflow: hidden;
+     }
+.glavniBox .card .layer{
+    position: absolute;
+    top: calc(100% - 10px );
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    z-index: 1;
+    transition: 0.5s;
+}
+.glavniBox .card:hover .layer{
+    top: 0;
+}
+
+
+.glavniBox .card .content{
+    position: relative;
+    z-index: 2;
+}
+
+.glavniBox .card .content p{
+    color: #eee;
+    text-align: justify;
+}
+
+
+.glavniBox .card .content ul{
+    padding: 0 0 0 10px;
+    color: #eee;
+    text-align: justify;
+    height: 400px;
+}
+.glavniBox .card .content ul a{
+    color: aqua;
+}
+
+.glavniBox .card .content img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #eee;
+    box-shadow: 0 10px 20px rgb(0,0,0,.2);
+}
+
+.glavniBox .card .content .details h2{
+
+    font-size: 18px;
+    color: #03a9f4;
+    background: none;
+}
+
+.glavniBox .card .content .details h2 span{
+    color: #03a9f4;
+    font-size: 14px;
+    transition: 0.5s;
+
+}
+.glavniBox .card:hover .content .details h2{
+    color: #eee;
+}
+
+.glavniBox .card:hover .content .details h2 span{
+    color: #eee;
+}
+
+#profilnaSlika{
+
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 10px 40px rgb(0,0,0,.5);
+}
+
+.senkaImg{
+    box-sizing: border-box;
+    box-shadow: 0 10px 40px rgb(0,0,0,.5);
+
+}
+
+
+

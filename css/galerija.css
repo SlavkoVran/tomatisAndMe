@@ -1,0 +1,32 @@
+.glavni img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .glavni {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 2px;
+    grid-auto-flow: dense;  /* popunjava prazan prostor */
+  }
+  
+  .velika {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .horizontalna {
+    grid-column: span 2;
+  }
+  
+  .vertikalna {
+    grid-row: span 2;
+  }
+
+  .glavni img:hover {
+     opacity: 0.5;
+  }
+
+  

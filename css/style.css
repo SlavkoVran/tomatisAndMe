@@ -1,0 +1,195 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+}
+
+.navbar{
+    background-color:#eee;
+    /* padding: 1% 0; */
+    font-size: 1.2em;
+
+}
+
+.navbar-default, .navbar-nav li a{
+    color: #03a9f4;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+    color: #03a9f4;
+}
+
+.poravnanjeTeksta{
+   text-align: justify;
+    
+}
+
+#home{
+    background: url(https://www.tomatis.at/wp-content/uploads/2017/12/Tomatis-Logo-blau-sehrgross.png) no-repeat center center fixed;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+}
+#fixed{
+    background: url(../img/welle_blau.png) no-repeat center center fixed;
+    /* display: table; */
+    height: 60%;
+    /* position: relative; */
+    width: 100%;
+    background-size: contain;
+}
+.galerija2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+#galerija{
+    width: 100%;
+    height: 100%;
+}
+
+.imgGalerija{  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gridGalerija{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+
+} 
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.lead{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.h2, h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: #03a9f4;
+    color: #eee;
+}
+.padding img{
+    width: 100%;
+}
+
+h1, h3{
+    color: #eee;
+}
+
+#logo1 {
+    height: 100px;
+}
+
+.row1{
+    align-items: center;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    background-color: #03a9f4;
+    padding: 3% 3% 3% 3%;
+    color: #eee;
+}
+
+.fa {
+   
+    padding: 15px;
+    font-size: 50px;
+    
+}
+.maps{
+    width: 50px;
+    height: 50px;
+}
+.fa:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.icon{
+    max-width: 200px ;
+}
+.flag{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
+.containerFlex{
+ display: flex;
+justify-content: space-around;
+}
+
+.tomatisTerapija2{
+    padding-top: 30px;
+}
+
+
+
+@media (max-width: 768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .icon{
+        padding-top: 5%;
+        max-width: 100px;
+    }
+
+    #logo1 {
+       
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .row1{
+        align-items: center;
+        display: unset;
+    }
+
+    #fixed{
+       
+        height: 30%;
+        width: 100%;
+       
+    }
+
+    .text-center p{
+        text-align: start;
+    }
+
+    #home{
+        
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+}
