@@ -32,11 +32,8 @@ html, body{
     background-size: contain;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 50px;
-    
-
 }
 #fixed{
     background: url(../img/welle_blau.png) no-repeat center center fixed;
@@ -148,16 +145,16 @@ justify-content: space-around;
 .tomatisTerapija2{
     padding-top: 30px;
 }
-
 .obavestenje{
-    background-color: #03a9f4;
     font-size: 2em;
+    background-color: #03a9f4;
     border: 1px solid #03a9f4;
     color: #eee;
     box-shadow: 5px 5px 5px #03a9f459;
     margin: 0 10% 0 10%;
     text-align: center;
 }
+
 
 
 
@@ -203,8 +200,8 @@ justify-content: space-around;
     }
 
     .obavestenje{
-        font-size: 12px;
-        
+        margin-top: 5px;  
     }
+    
 
 }
