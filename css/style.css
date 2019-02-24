@@ -32,8 +32,9 @@ html, body{
     background-size: contain;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
+    margin-top: 50px;
     
 
 }
@@ -148,6 +149,16 @@ justify-content: space-around;
     padding-top: 30px;
 }
 
+.obavestenje{
+    background-color: #03a9f4;
+    font-size: 2em;
+    border: 1px solid #03a9f4;
+    color: #eee;
+    box-shadow: 5px 5px 5px #03a9f459;
+    margin: 0 10% 0 10%;
+    text-align: center;
+}
+
 
 
 @media (max-width: 768px){
@@ -187,9 +198,13 @@ justify-content: space-around;
     }
 
     #home{
-        
-    justify-content: flex-end;
     align-items: center;
+   
+    }
+
+    .obavestenje{
+        font-size: 12px;
+        
     }
 
 }
